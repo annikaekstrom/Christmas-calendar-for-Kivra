@@ -1,5 +1,8 @@
 body {
   background: red;
+  color: white;
+  /*margin: 0;
+  padding: 0;*/
 }
 
 .container {
@@ -15,6 +18,7 @@ body {
 .imgcontainer {
   width: 600px;
   height: 600px;
+  margin-bottom: 20px;
   overflow: hidden;
 }
 
@@ -24,16 +28,73 @@ img {
 }
 
 .ingredients {
- background: blue;
  width: 30%;
 }
 
 ul {
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+li:first-child {
+  padding-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 3vw;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-weight: bold;
+  margin: 20px 0px 10px 0px;
 }
 
 .description {
-  background: green;
-  width: 67%;
-  margin-top: 20px;
+  font-size: 18px;
+  line-height: 26px;
+  width: 100%;
+  font-family: sans-serif;
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+  }
+
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+
+  .container {
+    max-width: 768px;
+    justify-content: center;
+    margin: 0;
+  }
+
+  .ingredients {
+    width: 100%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 20px;
+  }
+
+  .description {
+    width: 100%;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-bottom: 40px;
+  }
+
+  .imgcontainer {
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+  }
 }
