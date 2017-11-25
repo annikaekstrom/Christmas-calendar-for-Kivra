@@ -6,14 +6,115 @@ html, body {
   color: white;
   margin: 0;
   padding: 0;
-  background-image: url(https://blackbird-digital.de/HTML-Christmas-Advent-Calendar-blue/img/bg.jpg);
+  /*background-image: url(https://blackbird-digital.de/HTML-Christmas-Advent-Calendar-blue/img/bg.jpg);*/
+  background-image: url(./svg/background_calender.svg);
   background-position: bottom right;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: red;
+  /*background-color: red;*/
   /*background-color: #b6d3d7;*/
   /*color: #fff;*/
+}
+
+/*.imgcontainer, .door d4 {
+  background-image: url(./svg/day4.svg);
+}*/
+
+.d1 {
+  background-image: url(./svg/day1.svg);
+}
+
+.d2 {
+  background-image: url(./svg/day2.svg);
+}
+
+.d3 {
+  background-image: url(./svg/day3.svg);
+}
+
+.d4 {
+  background-image: url(./svg/day4.svg);
+}
+
+.d5 {
+  background-image: url(./svg/day5.svg);
+}
+
+.d6 {
+  background-image: url(./svg/day6.svg);
+}
+
+.d7 {
+  background-image: url(./svg/day7.svg);
+}
+
+.d8 {
+  background-image: url(./svg/day8.svg);
+}
+
+.d9 {
+  background-image: url(./svg/day9.svg);
+}
+
+.d10 {
+  background-image: url(./svg/day10.svg);
+}
+
+.d11 {
+  background-image: url(./svg/day11.svg);
+}
+
+.d12 {
+  background-image: url(./svg/day12.svg);
+}
+
+.d13 {
+  background-image: url(./svg/day13.svg);
+}
+
+.d14 {
+  background-image: url(./svg/day14.svg);
+}
+
+.d15 {
+  background-image: url(./svg/day15.svg);
+}
+
+.d16 {
+  background-image: url(./svg/day16.svg);
+}
+
+.d17 {
+  background-image: url(./svg/day17.svg);
+}
+
+.d18 {
+  background-image: url(./svg/day18.svg);
+}
+
+.d19 {
+  background-image: url(./svg/day19.svg);
+}
+
+.d20 {
+  background-image: url(./svg/day20.svg);
+}
+
+.d21 {
+  background-image: url(./svg/day21.svg);
+}
+
+.d22 {
+  background-image: url(./svg/day22.svg);
+}
+
+.d23 {
+  background-image: url(./svg/day23.svg);
+}
+
+.d24 {
+  background-image: url(./svg/day24.svg);
 }
 
 #sp-wrapper {
@@ -35,7 +136,7 @@ html, body {
 }
 
 .door {
-  background: pink;
+  background: transparant;
   width: 90px;
   height: 90px;
   display: inline-block;
