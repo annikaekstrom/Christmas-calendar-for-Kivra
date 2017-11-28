@@ -23,98 +23,122 @@ body {
 
 .d1 {
   background-image: url(./svg/day1.svg);
+  background-color: #4e2c1a96;
 }
 
 .d2 {
   background-image: url(./svg/day2.svg);
+  background-color: #4e2c1a96;
 }
 
 .d3 {
   background-image: url(./svg/day3.svg);
+  background-color: #4e2c1a96;
 }
 
 .d4 {
   background-image: url(./svg/day4.svg);
+  background-color: #4e2c1a96;
 }
 
 .d5 {
   background-image: url(./svg/day5.svg);
+  background-color: #4e2c1a96;
 }
 
 .d6 {
   background-image: url(./svg/day6.svg);
+  background-color: #4e2c1a96;
 }
 
 .d7 {
   background-image: url(./svg/day7.svg);
+  background-color: #4e2c1a96;
 }
 
 .d8 {
   background-image: url(./svg/day8.svg);
+  background-color: #4e2c1a96;
 }
 
 .d9 {
   background-image: url(./svg/day9.svg);
+  background-color: #4e2c1a96;
 }
 
 .d10 {
   background-image: url(./svg/day10.svg);
+  background-color: #4e2c1a96;
 }
 
 .d11 {
   background-image: url(./svg/day11.svg);
+  background-color: #4e2c1a96;
 }
 
 .d12 {
   background-image: url(./svg/day12.svg);
+  background-color: #4e2c1a96;
 }
 
 .d13 {
   background-image: url(./svg/day13.svg);
+  background-color: #4e2c1a96;
 }
 
 .d14 {
   background-image: url(./svg/day14.svg);
+  background-color: #4e2c1a96;
 }
 
 .d15 {
   background-image: url(./svg/day15.svg);
+  background-color: #4e2c1a96;
 }
 
 .d16 {
   background-image: url(./svg/day16.svg);
+  background-color: #4e2c1a96;
 }
 
 .d17 {
   background-image: url(./svg/day17.svg);
+  background-color: #4e2c1a96;
 }
 
 .d18 {
   background-image: url(./svg/day18.svg);
+  background-color: #4e2c1a96;
 }
 
 .d19 {
   background-image: url(./svg/day19.svg);
+  background-color: #4e2c1a96;
 }
 
 .d20 {
   background-image: url(./svg/day20.svg);
+  background-color: #4e2c1a96;
 }
 
 .d21 {
   background-image: url(./svg/day21.svg);
+  background-color: #4e2c1a96;
 }
 
 .d22 {
   background-image: url(./svg/day22.svg);
+  background-color: #4e2c1a96;
 }
 
 .d23 {
   background-image: url(./svg/day23.svg);
+  background-color: #4e2c1a96;
 }
 
 .d24 {
   background-image: url(./svg/day24.svg);
+  background-color: #4e2c1a96;
 }
 
 #sp-wrapper {
@@ -136,18 +160,19 @@ body {
 }
 
 .door {
-  background: transparant;
   width: 90px;
   height: 90px;
   display: inline-block;
   padding: 2% 2%;
   margin: 2% 2%;
   position: relative;
+  transform-style: preserve-3d;
+  transition: all 1.0s linear;
 }
 
-.door  a:hover {
-    background-color: yellow;
-}
+/*.door:hover {
+  background-color: yellow;
+}*/
 
 /*.d1 > a {
  background-image: url(https://blackbird-digital.de/HTML-Christmas-Advent-Calendar-blue/img/doors/9.png);
@@ -225,8 +250,9 @@ h3 {
   width: 100%;
   font-family: sans-serif;
 }
+
 .door-clicked {
-  /*background-image: url();*/
+  /*background: red;*/
   height: 90px;
   width:90px;
   background-size: 90px auto;
@@ -234,9 +260,27 @@ h3 {
   transform: rotateY(180deg);
 }
 
+/*.door-clicked.d1 {
+  background-image: url(./images/banankaka.jpg);
+  height: 90px;
+  width:90px;
+  background-size: 90px auto;
+  background-position: 0 0;
+  transform: rotateY(180deg);
+}*/
+
 .hidden {
   visibility: hidden;
 }
+
+.img-door {
+  width: 90px;
+  height: 90px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 @media (max-width: 768px) {
   body {
     margin: 0;

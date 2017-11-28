@@ -25,7 +25,7 @@ doors.forEach((doornumber, index) => {
   }
 })
 
-console.log(doors)
+// console.log(doors)
 
 
 
