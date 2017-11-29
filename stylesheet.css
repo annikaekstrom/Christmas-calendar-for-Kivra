@@ -20,9 +20,49 @@ body {
   /*color: #fff;*/
 }
 
-/*.imgcontainer, .door d4 {
-  background-image: url(./svg/day4.svg);
-}*/
+/*-----------TOOLTIP------------*/
+.tooltip {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    visibility: hidden;
+    width: 120px;
+    background-color: #B79A7E;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #B79A7E transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+/*-----------TOOLTIP---------*/
 
 .d1 {
   background-image: url(./svg/day1.svg);
