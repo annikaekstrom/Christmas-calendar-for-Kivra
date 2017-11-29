@@ -3,18 +3,9 @@
 }
 
 body {
-  color: white;
+
   margin: 0;
   padding: 0;
-  /*background-image: url(https://blackbird-digital.de/HTML-Christmas-Advent-Calendar-blue/img/bg.jpg);*/
-  background-image: url(./svg/background_calender.svg);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  /*background-color: red;*/
-  /*background-color: #b6d3d7;*/
-  /*color: #fff;*/
 }
 
 /*.imgcontainer, .door d4 {
@@ -183,7 +174,7 @@ body {
  background-position: 0 0;
 }*/
 
-li.door.d2 h4 {
+/*li.door.d2 h4 {
   font-size: 40px;
   color: red;
   position: absolute;
@@ -192,7 +183,7 @@ li.door.d2 h4 {
   width:100%;
   z-index: 200;
   position: absolute
-}
+}*/
 
 .container {
   display: flex;
@@ -317,4 +308,47 @@ h3 {
     overflow: hidden;
     margin-bottom: 5px;
   }
+}
+
+#index {
+  /*color: white;*/
+  background-image: url(./svg/background_calender.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#day19 {
+  background-color: #58afb2;
+  font: #0f2a48;
+}
+
+#day20 {
+  background-image:url('http://korttikauppa.karto.fi/images/large//apps/tuotanto/tuotekuvat/116086.jpg');
+  background-repeat:repeat;
+}
+
+#day21 {
+
+}
+
+#day22 {
+  background: url('https://media.giphy.com/media/SCEH0M0fMntBK/giphy.gif') no-repeat;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#day23 {
+  background: url('http://bestanimations.com/Holidays/Christmas/xmastree/christmas-tree-animated-gif-38.gif') repeat-y right;
+}
+
+#day24 {
+  background: url('http://www.leselectionvaudreuil.com/wp-content/uploads/2016/12/XmasOrnements4.gif') no-repeat;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
