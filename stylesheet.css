@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+
 *{
     box-sizing: border-box;
 }
@@ -6,6 +8,7 @@ body {
   color: white;
   margin: 0;
   padding: 0;
+  font-family: 'Fira Sans', sans-serif;
   /*background-image: url(https://blackbird-digital.de/HTML-Christmas-Advent-Calendar-blue/img/bg.jpg);*/
   background-image: url(./svg/background_calender.svg);
   background-position: bottom right;
@@ -17,9 +20,49 @@ body {
   /*color: #fff;*/
 }
 
-/*.imgcontainer, .door d4 {
-  background-image: url(./svg/day4.svg);
-}*/
+/*-----------TOOLTIP------------*/
+.tooltip {
+    cursor: pointer;
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 12px;
+    visibility: hidden;
+    width: 120px;
+    background-color: #B79A7E;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #B79A7E transparent transparent transparent;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+/*-----------TOOLTIP---------*/
 
 .d1 {
   background-image: url(./svg/day1.svg);
@@ -174,26 +217,6 @@ body {
   background-color: yellow;
 }*/
 
-/*.d1 > a {
- background-image: url(https://blackbird-digital.de/HTML-Christmas-Advent-Calendar-blue/img/doors/9.png);
- height: 104px;
- display: block;
- width:90px;
- background-size: 90px auto;
- background-position: 0 0;
-}*/
-
-li.door.d2 h4 {
-  font-size: 40px;
-  color: red;
-  position: absolute;
-  top: -95 px;
-  left: 17px;
-  width:100%;
-  z-index: 200;
-  position: absolute
-}
-
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -235,8 +258,10 @@ li:first-child {
 
 h1 {
   margin: 0;
-  font-size: 3vw;
+  font-size: 45px;
   margin-bottom: 10px;
+  font-family: 'Poiret One', cursive;
+  font-weight: lighter;
 }
 
 h3 {
@@ -259,15 +284,6 @@ h3 {
   background-position: 0 0;
   transform: rotateY(180deg);
 }
-
-/*.door-clicked.d1 {
-  background-image: url(./images/banankaka.jpg);
-  height: 90px;
-  width:90px;
-  background-size: 90px auto;
-  background-position: 0 0;
-  transform: rotateY(180deg);
-}*/
 
 .hidden {
   visibility: hidden;

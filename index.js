@@ -15,6 +15,10 @@ const openDoor =(event) => {
   }, 500)
 }
 
+const showTooltip = (event) => {
+  event.target.classList.add("tooltip")
+}
+
 doors.forEach((doornumber, index) => {
   const date = new Date(`2017-11-${index+1}`)
   if (date < today) {
@@ -22,6 +26,7 @@ doors.forEach((doornumber, index) => {
     doornumber.addEventListener("click", openDoor)
   } else {
     doornumber.classList.add("closed")
+    doornumber.addEventListener("click", showTooltip)
   }
 })
 
