@@ -30,6 +30,10 @@ doors.forEach((doornumber, index) => {
   }
 })
 
+function ladda() {
+   location.reload();
+}
+
 // console.log(doors)
 
 
