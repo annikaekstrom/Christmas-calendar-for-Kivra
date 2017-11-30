@@ -1,20 +1,17 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 *{
     box-sizing: border-box;
 }
 
 body {
-  color: white;
+
   margin: 0;
   padding: 0;
-  font-family: 'Fira Sans', sans-serif;
+
   /*background-image: url(https://blackbird-digital.de/HTML-Christmas-Advent-Calendar-blue/img/bg.jpg);*/
-  background-image: url(./svg/background_calender.svg);
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+
   /*background-color: red;*/
   /*background-color: #b6d3d7;*/
   /*color: #fff;*/
@@ -230,15 +227,11 @@ button {
   transition: all 1.0s linear;
 }
 
-/*.door:hover {
-  background-color: yellow;
-}*/
-
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 933px;
+  justify-content: flex-start;
+  max-width: 772px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
@@ -249,6 +242,7 @@ button {
   height: 500px;
   margin-bottom: 20px;
   overflow: hidden;
+  margin-right: 40px;
 }
 
 img {
@@ -267,6 +261,10 @@ ul {
   font-family: 'Fira Sans', sans-serif;
   font-size: 18px;
   line-height: 24px;
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
 }
 
 li:first-child {
@@ -289,6 +287,7 @@ h4 {
 h3 {
   font-weight: bold;
   margin: 20px 0px 10px 0px;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .description {
@@ -324,11 +323,6 @@ h3 {
     margin: 0;
   }
 
-  h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-
   .container {
     max-width: 768px;
     justify-content: center;
@@ -354,5 +348,50 @@ h3 {
     height: auto;
     overflow: hidden;
     margin-bottom: 5px;
+    margin-right: 0;
   }
+}
+
+#index {
+  /*color: white;*/
+  font-family: 'Fira Sans', sans-serif;
+  background-image: url(./svg/background_calender.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#day19 {
+  background-color: #58afb2;
+  font: #0f2a48;
+}
+
+#day20 {
+  background-image:url('http://korttikauppa.karto.fi/images/large//apps/tuotanto/tuotekuvat/116086.jpg');
+  background-repeat: repeat;
+}
+
+#day21 {
+  background: white;
+}
+
+#day22 {
+  background: url('https://media.giphy.com/media/SCEH0M0fMntBK/giphy.gif') no-repeat;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+#day23 {
+  background: url('http://bestanimations.com/Holidays/Christmas/xmastree/christmas-tree-animated-gif-38.gif') repeat-y right;
+}
+
+#day24 {
+  background: url('http://www.leselectionvaudreuil.com/wp-content/uploads/2016/12/XmasOrnements4.gif') no-repeat;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
