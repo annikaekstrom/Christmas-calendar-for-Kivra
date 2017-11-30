@@ -188,6 +188,7 @@ button {
     width: 125px;
     height: 80px;
     margin-top: 20px;
+    color:
   }
 
 #sp-wrapper {
@@ -261,6 +262,7 @@ ul {
   font-family: 'Fira Sans', sans-serif;
   font-size: 18px;
   line-height: 24px;
+  color: #f3ecec;
 }
 
 p {
@@ -276,12 +278,18 @@ li:first-child {
   font-size: 35px;
 }*/
 
+
+h1 {
+  color: #f3ecec;
+}
+
 h4 {
   margin: 0;
   font-size: 45px;
   margin-bottom: 10px;
   font-family: 'Poiret One';
   font-weight: lighter;
+  color: #fbf1f1;
 }
 
 h3 {
