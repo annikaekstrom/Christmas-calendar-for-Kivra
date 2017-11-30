@@ -264,7 +264,7 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 18px;
   line-height: 24px;
 }
@@ -273,11 +273,16 @@ li:first-child {
   padding-bottom: 10px;
 }
 
-h1 {
+/*h1 {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 35px;
+}*/
+
+h4 {
   margin: 0;
   font-size: 45px;
   margin-bottom: 10px;
-  font-family: 'Poiret One', cursive;
+  font-family: 'Poiret One';
   font-weight: lighter;
 }
 
