@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 *{
     box-sizing: border-box;
@@ -228,8 +229,8 @@ body {
 .container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
-  max-width: 933px;
+  justify-content: flex-start;
+  max-width: 772px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 40px;
@@ -240,6 +241,7 @@ body {
   height: 500px;
   margin-bottom: 20px;
   overflow: hidden;
+  margin-right: 40px;
 }
 
 img {
@@ -255,9 +257,13 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: 'Fira Sans', sans-serif;
   font-size: 18px;
   line-height: 24px;
+}
+
+p {
+  font-family: 'Fira Sans', sans-serif;
 }
 
 li:first-child {
@@ -267,14 +273,16 @@ li:first-child {
 h1 {
   margin: 0;
   font-size: 45px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   font-family: 'Poiret One', cursive;
+  line-height: 54px;
   font-weight: lighter;
 }
 
 h3 {
   font-weight: bold;
   margin: 20px 0px 10px 0px;
+  font-family: 'Fira Sans', sans-serif;
 }
 
 .description {
@@ -310,11 +318,6 @@ h3 {
     margin: 0;
   }
 
-  h1 {
-    font-size: 32px;
-    margin-bottom: 20px;
-  }
-
   .container {
     max-width: 768px;
     justify-content: center;
@@ -340,5 +343,6 @@ h3 {
     height: auto;
     overflow: hidden;
     margin-bottom: 5px;
+    margin-right: 0;
   }
 }
