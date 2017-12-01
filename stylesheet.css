@@ -266,11 +266,8 @@ ul {
 
 p {
   font-family: 'Fira Sans', sans-serif;
-<<<<<<< HEAD
-  color: #fbf1f1;
-=======
+  color: #f3ecec;
   font-weight: 100;
->>>>>>> bfcfc2a2ff7897a5cce203ccf970135d1e5cdfe7
 }
 
 li:first-child {
@@ -289,7 +286,7 @@ h4 {
   margin-bottom: 10px;
   font-family: 'Poiret One';
   font-weight: lighter;
-  color: #fbf1f1;
+  color: #f3ecec;
 }
 
 h3 {
