@@ -268,6 +268,7 @@ ul {
 
 p {
   font-family: 'Fira Sans', sans-serif;
+  color: #fbf1f1;
 }
 
 li:first-child {
@@ -293,6 +294,7 @@ h3 {
   font-weight: bold;
   margin: 20px 0px 10px 0px;
   font-family: 'Fira Sans', sans-serif;
+  color: #f3ecec;
 }
 
 .description {
@@ -394,7 +396,7 @@ h3 {
 #day18, #day1, #day2, #day4,
 #day5, #day6, #day7, #day8, #day9, #day10,
 #day11, #day12, #day13, #day14, #day15,
-#day16, #day17 {
+#day16, #day17, #day19, #day21 {
   /*color: white;*/
   font-family: 'Fira Sans', sans-serif;
   background-image: url(./svg/background_days.svg);
@@ -410,19 +412,19 @@ h3 {
   font: #0f2a48;
   }
 
-#day19 {
+/*#day19 {
   background-color: #58afb2;
   font: #0f2a48;
-}
+}*/
 
 #day20 {
   background-image:url('http://korttikauppa.karto.fi/images/large//apps/tuotanto/tuotekuvat/116086.jpg');
   background-repeat: repeat;
 }
 
-#day21 {
+/*#day21 {
   background: white;
-}
+}*/
 
 #day22 {
   background: url('https://media.giphy.com/media/SCEH0M0fMntBK/giphy.gif') no-repeat;
