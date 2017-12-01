@@ -181,6 +181,16 @@ body {
   background-color: #4e2c1a96;
 }
 
+button {
+    background:url(./svg/back_button.svg) no-repeat;
+    cursor: pointer;
+    border: none;
+    width: 125px;
+    height: 80px;
+    margin-top: 20px;
+    color:
+  }
+
 #sp-wrapper {
   /*background: green;*/
   margin: 20px auto;
@@ -254,6 +264,7 @@ ul {
   font-family: 'Fira Sans', sans-serif;
   font-size: 18px;
   line-height: 24px;
+  color: #f3ecec;
 }
 
 p {
@@ -264,13 +275,23 @@ li:first-child {
   padding-bottom: 10px;
 }
 
+/*h1 {
+  font-family: 'Bigelow Rules', cursive;
+  font-size: 35px;
+}*/
+
+
 h1 {
+  color: #f3ecec;
+}
+
+h4 {
   margin: 0;
   font-size: 45px;
-  margin-bottom: 20px;
-  font-family: 'Poiret One', cursive;
-  line-height: 54px;
+  margin-bottom: 10px;
+  font-family: 'Poiret One';
   font-weight: lighter;
+  color: #fbf1f1;
 }
 
 h3 {
@@ -306,6 +327,28 @@ h3 {
   position: absolute;
   top: 0;
   left: 0;
+}
+
+.animated {
+   -webkit-animation-duration: 10s;
+   animation-duration: 10s;
+   -webkit-animation-fill-mode: both;
+   animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+@keyframes fadeIn {
+   0% {opacity: 0;}
+   100% {opacity: 1;}
+}
+
+.fadeIn {
+   -webkit-animation-name: fadeIn;
+   animation-name: fadeIn;
 }
 
 @media (max-width: 768px) {
@@ -353,6 +396,23 @@ h3 {
   background-size: cover;
 }
 
+<<<<<<< HEAD
+=======
+#day18, #day1, #day2, #day3, #day4,
+#day5, #day6, #day7, #day8, #day9, #day10,
+#day11, #day12, #day13, #day14, #day15,
+#day16, #day17 {
+  /*color: white;*/
+  font-family: 'Fira Sans', sans-serif;
+  background-image: url(./svg/background_days.svg);
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+>>>>>>> 4a6a2b648e033c0246f92f380b6ab69cefef977d
 #day19 {
   background-color: #58afb2;
   font: #0f2a48;
