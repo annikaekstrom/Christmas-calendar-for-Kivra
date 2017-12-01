@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Sans');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:100,400');
 @import url('https://fonts.googleapis.com/css?family=Poiret+One');
 
 *{
@@ -268,7 +268,11 @@ ul {
 
 p {
   font-family: 'Fira Sans', sans-serif;
+<<<<<<< HEAD
   color: #fbf1f1;
+=======
+  font-weight: 100;
+>>>>>>> bfcfc2a2ff7897a5cce203ccf970135d1e5cdfe7
 }
 
 li:first-child {
@@ -394,7 +398,7 @@ h3 {
 }
 
 #day18, #day1, #day2, #day4,
-#day5, #day6, #day7, #day8, #day9, #day10,
+#day5, #day6, #day7, #day8, #day9,
 #day11, #day12, #day13, #day14, #day15,
 #day16, #day17, #day19, #day21 {
   /*color: white;*/
@@ -406,7 +410,7 @@ h3 {
   background-size: cover;
 }
 
-#day3 {
+#day3, #day10, #day17 {
   background-image: url(candles.gif);
   background-size: cover;
   font: #0f2a48;
