@@ -241,10 +241,8 @@ button {
 .imgcontainer {
   width: 500px;
   height: 500px;
-  margin-bottom: 20px;
   overflow: hidden;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin: 27px 30px 10px 5px;
 }
 
 img {
