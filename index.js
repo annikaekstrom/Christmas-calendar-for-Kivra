@@ -21,7 +21,7 @@ const showTooltip = (event) => {
 
 doors.forEach((doornumber, index) => {
   const date = new Date(`2017-12-${index+1}`)
-  if (date =< today) {
+  if (date <= today) {
     doornumber.classList.add("open")
     doornumber.addEventListener("click", openDoor)
   } else {
