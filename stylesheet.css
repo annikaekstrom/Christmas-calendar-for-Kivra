@@ -400,7 +400,7 @@ h3 {
 
 #day18, #day1, #day2, #day4,
 #day5, #day6, #day7, #day8, #day9,
-#day11, #day12, #day13, #day14, #day15,
+#day11, #day12, #day14, #day15,
 #day16, #day17, #day19, #day21 {
   /*color: white;*/
   font-family: 'Fira Sans', sans-serif;
@@ -415,6 +415,14 @@ h3 {
   background-image: url(candles.gif);
   background-size: cover;
   font: #0f2a48;
+  }
+
+#day13 {
+  background-image: url(lucia-ny.gif);
+  background-color: #2C2842;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   }
 
 /*#day19 {
